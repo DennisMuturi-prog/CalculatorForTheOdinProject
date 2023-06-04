@@ -1,0 +1,25 @@
+
+
+.onetonine{
+    width:400px;
+    height:200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+#mynum{
+    width:100px;
+    background-color: blueviolet;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+}
+#myinput{
+    width:393px;
+    height:50px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: large;
+    
+}
