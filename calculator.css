@@ -1,25 +1,76 @@
 
 
 .onetonine{
-    width:400px;
-    height:200px;
+    width:210px;
+    height:270px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
 }
 
 #mynum{
-    width:100px;
-    background-color: blueviolet;
+    width:50px;
+    height:50px;
+    background-color:palevioletred;
     font-size: large;
     color: white;
-    border-radius: 5px;
+    border-radius:50%;
+    border:0;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 #myinput{
-    width:393px;
+    width:211px;
     height:50px;
     background-color: lightgray;
-    border-radius: 5px;
+    border-radius:5px;
     font-size: large;
     
+}
+.myop,.calculate{
+    background-color:royalblue;
+    width:50px;
+    height:50px;
+    font-size: large;
+    color: white;
+    border-radius:50%;
+    border:0;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+.clearBtn{
+
+     background-color:red;
+     width:50px;
+     height:50px;
+    font-size: large;
+    color: white;
+    border-radius:50%;
+    border:0;
+    margin-right: 1px;
+    margin-bottom: 1px;
+
+}
+.operations{
+    background-color:darkblue;
+    width: 210px;
+    padding:5px;
+    border-radius: 5px;
+}
+.deleteBtn{
+    background-color:royalblue;
+    width:50px;
+    height:50px;
+    font-size:medium;
+    color: white;
+    border-radius:50%;
+    border:0;
+    margin-right: 1px;
+    margin-bottom: 1px;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
